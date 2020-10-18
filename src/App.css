@@ -1,0 +1,31 @@
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  width: 80%;
+}
+
+.playlist {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: black;
+  width: 25%;
+  border-radius: 10px;
+  font-size: 90%;
+  margin: 10px;
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(29, 185, 84, 1);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(29, 185, 84, 1);
+  box-shadow: 0px 0px 5px 1px rgba(29, 185, 84, 1);
+}
+
+.display_song {
+  cursor: pointer;
+}
+
+.display_song:hover {
+  color: red;
+}
